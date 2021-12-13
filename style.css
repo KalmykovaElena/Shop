@@ -30,7 +30,7 @@ color: #FFFFFF;
     width: 1110px;
     display:flex;
     justify-content: space-around;
-    border-left: none;
+    
     
 }
 .catalog{
@@ -67,6 +67,7 @@ color: #FFFFFF;
     font-family: Montserrat;
     font-weight: 500;
     font-size:16px;
+    font-style: normal;
     line-height: 20px;
     text-align: center;
 letter-spacing: 0.05em;
@@ -92,4 +93,27 @@ text-transform: uppercase;
     align-items: center;
     margin-left: 30px;
 }
+.describe{
+    width:1920px;
+    height:856px;
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.describe-content{
+    width:1110px;
+    height: 656px;
+    border:3px solid #C4C4C4;
+    color:#FFFFFF;
+    
+}
+h2{
+font-family: Playfair Display;
+font-size: 36px;
+line-height: 150%;
+text-align: center;
+}
+.describe-content h2{
+    margin-top: 60px;
 }
