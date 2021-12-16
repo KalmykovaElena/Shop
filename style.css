@@ -142,3 +142,125 @@ line-height: 24px;
     margin-left: 475px;
     margin-top: 50px;
 }
+.collection{
+    width: 1920px;
+    background: #E6E3C4;
+    padding: 80px 0px;
+}
+
+.collection-content{
+    width: 1100px;
+    height: 878px;
+    border-top:1px solid #998431; 
+    border-bottom:1px solid #998431;
+    box-sizing:border-box;
+}
+
+.collection-row-container{
+    display: flex;
+    width: 100%;
+    height:758px;
+    margin:60px 0;
+    justify-content: space-between;
+}
+.collection-column{
+    display: flex;
+    flex-direction: column;
+    width:445px;
+    justify-content: space-between;
+}
+.collection-pictures{
+width:540px;
+}
+.landing-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  
+    cursor: pointer;
+  
+    width: 203px;
+    height: 100%;
+  
+    background-color: #99862a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+  .column-subtitle{
+    line-height: 150%;
+  }
+  .column-title{
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 150%;  
+    text-align: start;
+    width: 298px;
+  }
+  .column-text{
+    font-size: 14px;
+    line-height: 150%;
+    font-weight:400;
+  }
+  .subcolumn{
+      display: flex;
+      flex-direction: column;
+  }
+  .subrow{
+      display: flex;
+      border-bottom: 1px solid #282828;;
+  }
+  .sobrow:last-child{
+      border:none;
+  }
+  .first-cell{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:75px;
+      height:73px;
+      border-right: 1px solid #282828;;
+
+  }
+  .second-cell{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+      align-items: flex-start;
+      width:100%;
+      padding-left:30px;
+      box-sizing: border-box;
+  }
+  .cell-title{
+    width: 303px;
+    height: 27px;
+    left: 510px;
+    top: 2237px;
+    
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+  .cell-content{
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+  }
+  .medium{
+    width: 254px;
+    height: 50px;
+  }
+  .black{
+    border-color: black;
+  }
