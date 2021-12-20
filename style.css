@@ -172,6 +172,11 @@ line-height: 24px;
 .collection-pictures{
 width:540px;
 }
+.picture-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .landing-button {
     display: flex;
     justify-content: center;
@@ -264,3 +269,124 @@ width:540px;
   .black{
     border-color: black;
   }
+  .rectangle1{
+    Width:540px;
+    Height:500px;
+  }
+  .rectangle2{
+    Width:255px;
+    Height:228px;
+  }
+  .record{
+    width: 1920px;
+    height: 767px;   
+    background: #282828;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrap-record{
+      color:white;
+    border: 3px solid #C4C4C4;
+    height:538px;
+    width: 1110px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .wrap-record-heading  {
+    width: 1110px;
+    height: 260px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex; */
+    
+    .heading-record{
+        width: 490px;
+        height: 74px;
+        background:#282828;
+    }
+  .wrap-record-content{
+      width: 541px;
+      height: 497px;
+      margin-top: -40px;
+     
+  }
+
+  .grape{
+      width: 260px;
+      height: 260px;
+      margin-left: -30px;
+      margin-top: -69px;
+  }
+  .barrel{
+    width: 260px;
+    height: 260px;
+    margin-top: -65px;
+    margin-right: -59px;
+  }
+.record-line{
+    width: 118px;
+    margin-top: 30px;
+    border-color: #FFFFFF;
+}
+.record-text{
+    width: 539px;
+height: 72px;
+font-family: Montserrat;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+}
+input {
+    all: unset;
+  }
+input {
+    width:254px;
+    height:20px;
+    background: #282828;
+    color: white;
+    font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+}  
+.name-phone{
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+  .line-input{
+      width: 255px;
+     margin-top: 10px;
+    
+  }
+  .line-input:last-child{
+      margin-left: 30px;
+  }
+ .enter-info{
+     display: flex;
+    
+}
+.input-adress{
+    margin-top: 40px;
+}
+.line-input-adress{
+    width: 541px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.button-record{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #282828;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+width: 541px;
+height: 50px;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
